@@ -39,3 +39,23 @@ ul {
 h1 {
   // border: 1px solid blue;
 }
+
+input[type=text] {
+  border: 2px solid teal;
+  border-radius: 4px;
+  width: 100%;
+  padding: 2px;
+  // margin: 8px 0;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: teal;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
